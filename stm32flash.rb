@@ -4,7 +4,7 @@ class Stm32flash < Formula
   homepage "https://code.google.com/p/stm32flash/"
   version "20140225"
   url "https://gitorious.org/stm32flash/stm32flash/archive/7af2d66ad29c156176c6f62b1045cd354294b12a.tar.gz"
-  sha1 "80c8683b6221941b59cc372cc827140211fde973"
+  sha1 "bf64e3e4aef35c3be34e8dbb2ed3909460f3b065"
 
   def install
     system "make"
