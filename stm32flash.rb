@@ -2,8 +2,8 @@ require "formula"
 
 class Stm32flash < Formula
   homepage "https://code.google.com/p/stm32flash/"
-  version "20140225"
-  url "https://gitorious.org/stm32flash/stm32flash/archive/7af2d66ad29c156176c6f62b1045cd354294b12a.tar.gz"
+  version "20140328"
+  url "https://gitorious.org/stm32flash/stm32flash/archive/2e04bf684eaeb7a737597e010e13b98b617397f7.tar.gz"
   sha1 "bf64e3e4aef35c3be34e8dbb2ed3909460f3b065"
 
   def install
