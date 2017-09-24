@@ -10,6 +10,5 @@ class Stm32flash < Formula
     system "make"
     system "install", "-d", "#{prefix}/bin"
     system "install", "-m", "755", "stm32flash", "#{prefix}/bin"
-    system "install", "-m", "644", "stm32flash.1", "#{prefix}/../../../share/man/man1"
   end
 end
