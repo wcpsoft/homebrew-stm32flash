@@ -2,9 +2,9 @@ require "formula"
 
 class Stm32flash < Formula
   homepage "https://code.google.com/p/stm32flash/"
-  version "20160211"
-  url "https://sourceforge.net/projects/stm32flash/files/stm32flash-0.5.tar.gz/download"
-  sha256 "97aa9422ef02e82f7da9039329e21a437decf972cb3919ad817f70ac9a49e306"
+  version "20210213"
+  url "https://sourceforge.net/projects/stm32flash/files/stm32flash-0.6.tar.gz/download"
+  sha256 "ee9b40d4d3e5cd28b993e08ae2a2c3c559b6bea8730cd7e1d40727dedb1dda09"
 
   def install
     system "make"
